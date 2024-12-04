@@ -1,5 +1,5 @@
-## Next.js App Router Course - Starter
+# Next.js App Router Coursework
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+This repo chronicles my work going through the Next.js App Creation Tutorial on [Next.js Official Website](https://nextjs.org). 
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+A deployment of this repo is hosted through [Vercel](https://nextjs-dashboard-git-main-blissfulsaints-projects.vercel.app/dashboard).
