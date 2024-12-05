@@ -4,7 +4,8 @@
     "build": "next build",
     "dev": "next dev --turbo",
     "start": "next start",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "lint": "next lint"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
