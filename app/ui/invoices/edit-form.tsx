@@ -143,11 +143,11 @@ export default function EditInvoiceForm({
             ))}
         </div>
         <div id="form-error" aria-live="polite" aria-atomic="true">
-          {state.errors?.status || state.errors?.amount || state.errors?.customerId &&
-            <p className='mt-2 text-sm text-red-500' key='Missing Fields'>
-              Missing Fields. Failed to Edit Invoice.
+          {(state.errors?.status || state.errors?.amount || state.errors?.customerId) && (
+            <p className="mt-2 text-sm text-red-500" key="Missing Fields">
+              Missing Fields. Failed to Update Invoice.
             </p>
-          }
+          )}
         </div>
       </div>
       <div className="mt-6 flex justify-end gap-4">
